@@ -1,0 +1,30 @@
+First we gotta search for certain word using the double quotes: 
+
+Example: 
+
+    search for an specify name "Terrifier 2" and it is going to search only for
+    the page or websites that contain the word Terrifier 2. 
+
+If we want to search for exmaplo, for more than one specify word, we use the
+plus sign: 
+
+Example: 
+
+    "Terrifier 2" + "David Howard Thornton";
+
+If we want to search something and we dont want it to have a certain word, can
+be a place or wherever we want to. For this we use the minus sign;
+
+        "David Howard Thrnton" -"Terrifier 2"
+
+If we want to serach for two things and only get one result we can use the OR
+opeartor 
+
+Example: 
+
+        "Terrifier 2" OR "Terrifier" + "2016" OR "2022"
+
+        The above example it's going to find ot Terrifier 2 a movie from 2022
+        or terrifier a movie from 2016
+
+
