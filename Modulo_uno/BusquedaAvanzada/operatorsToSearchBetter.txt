@@ -5,7 +5,7 @@ Example:
     search for an specify name "Terrifier 2" and it is going to search only for
     the page or websites that contain the word Terrifier 2. 
 
-If we want to search for exmaplo, for more than one specify word, we use the
+ For exmaple: If we want to search for more than one specify word, we use the
 plus sign: 
 
 Example: 
