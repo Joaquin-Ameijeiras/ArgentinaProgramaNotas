@@ -1,0 +1,20 @@
+HTTP(hyper text transfer protocol)    
+
+    Es un fluido de comunicacion cliente-servidor. 
+
+    Envia una solicitud HTTP  (request)
+    Y
+    Recibe una respuesta HTTP (response)
+
+
+Para realizar esto se necesita el web client(web browser or the application to
+navigate), y serividores las cuales son computadoras en la nube, las cuales
+pediran una solicitud a la base de datos(web server);
+
+1- El cliente(navegador) envia una solicitud HTTP. 
+Un servidor web recibe la solicitud. 
+El servidor corre una aplicacion para procesar la solicitud. 
+El servidor retorna  una respusta(output) HTTP al navegador. 
+El navegador recibe la respusta http. 
+
+

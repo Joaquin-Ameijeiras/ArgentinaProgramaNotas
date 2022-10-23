@@ -1,0 +1,12 @@
+HTTP(hypertext transfer protocol) 
+
+    El http es un protocolo de comunicacion de transferencia de informacion.
+    Este se lo reailza a traves de archivos(XMl,HTML...) en la world wide web.
+
+    El protocolo http no guarda informacion sobre conexiones anteriores.Debido
+    a ello es necesari el uso de cookies para guardar pequenas porciones de
+    diferente infomracion que le entregamos. Como lo puede ser una contrasenia,
+    eso nos permite iniciar automaticamente, porque nuestra contrasenia ya esta
+    registrada y se nos quedo guardada.
+
+    

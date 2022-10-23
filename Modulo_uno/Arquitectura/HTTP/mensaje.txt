@@ -1,0 +1,35 @@
+Es un protocolo orientada a transacciones, sigue un esquema
+peticion-respuesta(request-response), entre un cliente(navegador web u otras
+posibles apliaciones), realiza una peticion enviando un mensaje con cierto
+formato. El servidor(servidor web), lo recibe lo procesa y le envia un mensaje
+de respuesta.
+
+Mensajes:Son text plano(no tienen ningun caracter especial, y tampco tienen
+ningun tipo de estilo como podria ser cursiva o resaltado, esto hace que para
+el humano sea muy facil de leer, pero su consecuencia es que es un texto muy
+largo en muchas ocaciones.)
+
+1- Linea inicial: 
+a-Para las peticiones: accion requerida + url + version http que soporta el
+cliente. 
+b-Para respuesta: http usado + codigo respuesta(1xx,2xx,3xx,4xx,5xx) + frase
+asociado a dicho retorno. 
+2-Las cabeceras del mensaje terminan en linea en blanco(son metadatos).
+3-El cuerpo del mensaje. Es opcional. Su respuesta depnde de la linea anterior
+de mensaje y el tipo de recurso al que hace referencia. 
+
+
+
+
+
+1xx Indica que la peticion ha sido recibida y se esta procesando.
+2xx Respuesta correcta: la peticion fue procesada correctamente. 
+3xx Respues de redireccion: El cliente debe realizar mas acciones para
+finalizar la peticion. 
+4xx Error causado por el cliente. 
+5xx Error causado por el servidor.
+ 
+Los metadatos son datos que refieren a otros datos con un objetivo final que es
+un objeto, ejemplo: 
+    La busqueda de libros en una bilbliteca, titulo, nombre autor, ano, ... son
+    datos que refieren a otros datos, que terminan dando con el libro(objeto). 
