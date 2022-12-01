@@ -1,0 +1,58 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.calculadora {
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin: 0px auto;
+    display: block;
+    width: 300px;
+    height: 245px;
+    background-color: rgb(170, 170, 170);
+}
+
+.pantalla {
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    border-radius: 10px;
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+.tecladoNumerico {
+    position: absolute;
+    width: 70%;
+    height: 141px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.botones {
+    width: 100%;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#restart {
+    position: relative;
+    top: 40px;
+}
+
+#restart:hover {
+    background-color: rgb(156, 118, 118);
+    transition: 1s;
+}
